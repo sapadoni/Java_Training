@@ -13,7 +13,7 @@ public class arraylength {
 
             result =  num * array.length;
 
-            System.out.println("The size of " + "the array is " + result);
+            System.out.println("The new array is " + result);
         }
     }
 
