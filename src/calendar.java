@@ -4,45 +4,52 @@ public class calendar {
 
     public static void main(String[] args) {
 
-        String month;
         int num;
 
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Please enter a Month Name:");
-        month = scan.next();
+        System.out.print("Please enter a month number:");
+        num = scan.nextInt();
 
 
-        if (month.equals("January")) {
-            num = 1;
-        } else if (month.equals("February")) {
-            num = 2;
-        } else if (month.equals("March")) {
-            num = 3;
-        } else if (month.equals("April")) {
-            num = 4;
-        } else if (month.equals("May")) {
-            num = 5;
-        } else if (month.equals("June")) {
-            num = 6;
-        } else if (month.equals("July")) {
-            num = 7;
-        } else if (month.equals("August")) {
-            num = 8;
-        } else if (month.equals("September")) {
-            num = 9;
-        } else if (month.equals("October")) {
-            num = 10;
-        } else if (month.equals("November")) {
-            num = 11;
-        } else if (month.equals("December")) {
-            num = 12;
+        if (num == 1) {
+            System.out.print("January");
+
+        } else if (num == 2) {
+            System.out.print("February");
+
+        } else if (num == 3) {
+            System.out.print("March");
+
+        } else if (num == 4) {
+            System.out.print("April");
+
+        } else if (num == 5) {
+            System.out.print("May");
+
+        } else if (num == 6) {
+            System.out.print("June");
+
+        } else if (num == 7) {
+            System.out.print("July");
+
+        } else if (num == 8) {
+            System.out.print("August");
+
+        } else if (num == 9) {
+            System.out.print("September");
+
+        } else if (num == 10) {
+            System.out.print("October");
+
+        } else if (num == 11) {
+            System.out.print("November");
+
+        } else if (num == 12) {
+            System.out.print("December");
         }
 
-
-     //   System.out.print(" The Number of the Month you choose is" + getMonthNum);
     }
-
 }
 
 
